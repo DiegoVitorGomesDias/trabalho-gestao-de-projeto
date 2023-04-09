@@ -1,0 +1,139 @@
+[
+    {
+        "title": "Git",
+        "description": "O Git é um sistema de controle de versão distribuído utilizado para gerenciar o código-fonte de projetos de software.",
+        "author": "Diego V.",
+        "articles": [
+            {
+                "subTitle": "Criação",
+                "text": "Ele foi criado por Linus Torvalds em 2005 para ser utilizado no desenvolvimento do kernel do Linux, mas hoje em dia é amplamente utilizado em diversos tipos de projetos."
+            },
+            {
+                "subTitle": "O que o Git permite",
+                "text": "O Git permite que várias pessoas trabalhem no mesmo código ao mesmo tempo, sem que haja conflitos de alterações. Ele também permite que você mantenha um histórico completo das alterações feitas no código ao longo do tempo, o que é muito útil para acompanhar o progresso do desenvolvimento do projeto e para desfazer alterações que não funcionaram como esperado."
+            },
+            {
+                "subTitle": "Como é sua estrutura",
+                "text": "O Git é baseado em uma estrutura de árvore de diretórios, na qual cada diretório representa um estado diferente do código ao longo do tempo. Cada estado é chamado de commit, e é identificado por um hash único que permite que você navegue facilmente entre os diferentes estados do código."
+            },
+            {
+                "subTitle": "Como usar",
+                "text": "Para utilizar o Git, você precisa instalá-lo em seu computador e aprender alguns comandos básicos. Alguns dos comandos mais comuns incluem \"git init\" (para iniciar um novo repositório), \"git add\" (para adicionar arquivos ao repositório), \"git commit\" (para fazer um novo commit com as alterações feitas) e \"git push\" (para enviar as alterações para um repositório remoto, como o GitHub)."
+            }
+        ]
+    },
+    {
+        "title": "Git Flow",
+        "description": "O Git flow é uma metodologia para gerenciar fluxos de trabalho em projetos de software que utilizam o Git como sistema de controle de versão.",
+        "author": "Marcelo M.",
+        "articles": [
+            {
+                "subTitle": "Criação",
+                "text": "Ele foi criado por Vincent Driessen em 2010 e é baseado em um conjunto de regras e convenções para organizar o desenvolvimento do software em diferentes fases.<br/><br/>O Git flow é uma metodologia bastante popular para gerenciar fluxos de trabalho em projetos de software que utilizam o Git. Ele ajuda a organizar o desenvolvimento do software em diferentes fases e a garantir que o código-fonte esteja sempre em um estado consistente e pronto para ser lançado."
+            },
+            {
+                "subTitle": "Ramificações",
+                "text": "O Git flow divide o desenvolvimento do software em duas principais ramificações: a ramificação \"master\" e a ramificação \"develop\". A ramificação \"master\" contém o código-fonte que está em produção, enquanto a ramificação \"develop\" contém o código-fonte em desenvolvimento.</br></br>Além disso, o Git flow utiliza ramificações adicionais para organizar as diferentes fases do desenvolvimento do software. Por exemplo, uma ramificação \"feature\" é criada para adicionar novas funcionalidades ao software, enquanto uma ramificação \"release\" é criada para preparar o software para lançamento."
+            },
+            {
+                "subTitle": "Fluxo de Trabalho",
+                "text": "O fluxo de trabalho típico do Git flow é o seguinte:<br/><br/>1. A partir da ramificação \"develop\", crie uma nova ramificação \"feature\" para adicionar uma nova funcionalidade ao software.<br/><br/>2. Desenvolva a funcionalidade na ramificação \"feature\".<br/><br/>3. Quando a funcionalidade estiver completa, faça o merge da ramificação \"feature\" de volta para a ramificação \"develop\".<br/><br/>4. Crie uma nova ramificação \"release\" a partir da ramificação \"develop\" para preparar o software para lançamento."
+            },
+            {
+                "subTitle": "",
+                "text": "5. Faça os testes finais na ramificação \"release\" e corrija quaisquer problemas que forem encontrados.<br/><br/>6. Quando a ramificação \"release\" estiver pronta para ser lançada, faça o merge da ramificação \"release\" para a ramificação \"master\".<br/><br/>7. Crie uma nova tag na ramificação \"master\" para marcar a versão do software que foi lançada.<br/><br/>8. Faça o merge da ramificação \"release\" de volta para a ramificação \"develop\" para que as correções de bugs feitas durante a fase de lançamento também estejam disponíveis na próxima versão em desenvolvimento."
+            }
+        ]
+    },
+    {
+        "title": "Docker",
+        "description": "O Docker é uma plataforma de virtualização de containers que permite criar, implantar e executar aplicativos em ambientes isolados e portáteis.",
+        "author": "Athos W.",
+        "articles": [
+            {
+                "subTitle": "Criação",
+                "text": "Ele foi criado em 2013 por Solomon Hykes e se tornou extremamente popular devido à sua capacidade de simplificar o processo de implantação e execução de aplicativos em diferentes ambientes."
+            },
+            {
+                "subTitle": "Como funciona",
+                "text": "Em vez de virtualizar um sistema operacional inteiro como ocorre em uma máquina virtual, o Docker virtualiza apenas os recursos necessários para executar um aplicativo. Esses recursos são empacotados em um container, que contém tudo o que é necessário para executar o aplicativo, incluindo o código-fonte, as dependências e as configurações."
+            },
+            {
+                "subTitle": "Vantagens",
+                "text": "Os containers Docker são altamente portáteis e podem ser executados em qualquer ambiente que tenha o Docker instalado, independentemente do sistema operacional ou das configurações de hardware. Isso torna o processo de implantação e execução de aplicativos muito mais fácil e eficiente, pois elimina a necessidade de configurar manualmente cada ambiente de implantação."
+            },
+            {
+                "subTitle": "Resumo",
+                "text": "O Docker é uma plataforma poderosa para criar, implantar e executar aplicativos de forma rápida e eficiente em diferentes ambientes. Ele é amplamente utilizado em ambientes de desenvolvimento, teste e produção, e é suportado por uma grande comunidade de desenvolvedores e empresas que contribuem para seu desenvolvimento contínuo."
+            }
+        ]
+    },
+    {
+        "title": "CI/CD",
+        "description": "CI/CD é uma abreviação para integração contínua (CI) e entrega contínua (CD).",
+        "author": "Gabriel P.",
+        "articles": [
+            {
+                "subTitle": "O que é",
+                "text": "É uma abordagem para o desenvolvimento de software que visa automatizar o processo de construção, teste e implantação de aplicativos, tornando o processo de lançamento mais rápido e confiável."
+            },
+            {
+                "subTitle": "Importância",
+                "text": "O CI/CD é importante porque ajuda a reduzir o tempo de lançamento e a melhorar a qualidade do software. Quando o processo é automatizado, há menos risco de erros humanos e a equipe de desenvolvimento pode se concentrar em adicionar novos recursos e melhorias ao software, em vez de gastar tempo corrigindo problemas de implantação."
+            },
+            {
+                "subTitle": "CI",
+                "text": "Integração contínua (CI) é um processo em que as alterações de código são integradas ao repositório principal com frequência. Cada vez que um desenvolvedor adiciona ou altera o código, ele é automaticamente integrado com o código existente e os testes automatizados são executados para verificar se o código funciona corretamente e não introduz erros."
+            },
+            {
+                "subTitle": "CD",
+                "text": "Entrega contínua (CD) é uma abordagem para o desenvolvimento de software que visa automatizar o processo de implantação de aplicativos em ambientes de teste e produção. Uma vez que o código foi integrado e os testes automatizados foram executados com sucesso, a entrega contínua automatiza o processo de implantação, criando um pacote de implantação que é entregue automaticamente aos ambientes de teste e produção."
+            },
+            {
+                "subTitle": "Outras vantagens",
+                "text": "Além disso, a integração contínua permite que os desenvolvedores detectem e corrijam problemas mais rapidamente, antes que eles se tornem grandes problemas que exigem uma correção demorada. E a entrega contínua permite que as equipes de operações de TI implantem atualizações de software mais rapidamente e com menos risco."
+            },
+            {
+                "subTitle": "Resumo",
+                "text": "Em resumo, o CI/CD é uma abordagem para o desenvolvimento de software que visa automatizar o processo de construção, teste e implantação de aplicativos. Isso ajuda a reduzir o tempo de lançamento e a melhorar a qualidade do software, permitindo que as equipes de desenvolvimento se concentrem em adicionar novos recursos e melhorias ao software, em vez de gastar tempo corrigindo problemas de implantação."
+            }
+        ]
+    },
+    {
+        "title": "Computação em Nuvem",
+        "description": "A Computação em Nuvem é um modelo de entrega de serviços de computação pela internet.",
+        "author": "Diego V. | Marcelo M.",
+        "articles": [
+            {
+                "subTitle": "O que permite",
+                "text": "Permite que as empresas e indivíduos utilizem recursos de TI, como servidores, armazenamento, bancos de dados, redes e software, sem a necessidade de investir em infraestrutura de TI própria."
+            },
+            {
+                "subTitle": "Facilidade",
+                "text": "Em vez de comprar, configurar e manter seus próprios servidores e equipamentos, as empresas podem usar serviços em nuvem fornecidos por provedores de serviços em nuvem, como Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) e muitos outros. Esses provedores de serviços em nuvem oferecem uma variedade de serviços, como armazenamento de arquivos, hospedagem de sites, computação de alta performance e análise de dados."
+            },
+            {
+                "subTitle": "Escalabilidade e Flexibilidade",
+                "text": "Os serviços em nuvem são escaláveis, o que significa que as empresas podem aumentar ou diminuir a capacidade de processamento, armazenamento e largura de banda de acordo com as necessidades de seus negócios. Além disso, a computação em nuvem é flexível, permitindo que as empresas acessem recursos sob demanda e paguem apenas pelos recursos que utilizam."
+            },
+            {
+                "subTitle": "Portabilidade",
+                "text": "Outra vantagem da computação em nuvem é a capacidade de acessar os recursos de TI de qualquer lugar do mundo, desde que haja uma conexão com a internet. Isso permite que as equipes de trabalho colaborem de forma mais eficiente e que os usuários acessem os aplicativos e dados de que precisam em qualquer lugar e a qualquer momento."
+            },
+            {
+                "subTitle": "Modelos",
+                "text": "A computação em nuvem é frequentemente dividida em três modelos de serviço: Software como Serviço (SaaS), Plataforma como Serviço (PaaS) e Infraestrutura como Serviço (IaaS). O modelo SaaS é usado para fornecer software pela internet, como um aplicativo de gerenciamento de projetos ou um serviço de email. O modelo PaaS é usado para fornecer um ambiente de desenvolvimento e implantação de aplicativos, enquanto o modelo IaaS fornece infraestrutura de TI, como servidores virtuais e armazenamento em nuvem."
+            },
+            {
+                "subTitle": "Resumo",
+                "text": "Em resumo, a computação em nuvem é um modelo de entrega de serviços de computação pela internet que permite que as empresas acessem recursos de TI, como servidores, armazenamento e software, sem a necessidade de investir em infraestrutura de TI própria. A computação em nuvem é escalável, flexível e acessível de qualquer lugar do mundo, tornando-a uma solução ideal para empresas de todos os tamanhos."
+            }
+        ]
+    },
+    {
+        "title": "Autores",
+        "description": "",
+        "author": "Athos Werner Andrade | Diego Vitor Gomes Dias | Gabriel Pereira Vicente | Marcelo Melo de Oliveira Júnior",
+        "articles": []
+    }
+]
